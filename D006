@@ -10,12 +10,12 @@ sudo apt install snapd
 sudo snap install core
 apt install cryptsetup
 sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda0
-sudo cryptsetup open /dev/sda0 <Aligator0>
+sudo cryptsetup open /dev/sda0 <Yummi0>
 >file
 sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda1
-sudo cryptsetup open /dev/sda1 <Aligator1>
+sudo cryptsetup open /dev/sda1 <Yummi1>
 sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda2
-sudo cryptsetup open /dev/sdxy <Aligator2>
+sudo cryptsetup open /dev/sdxy <Yummi2>
 sudo apt update 
 sudo apt install torbrowser-launcher
 apt install libgtk-2.0-dev
